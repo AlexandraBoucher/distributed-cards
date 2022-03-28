@@ -11,11 +11,14 @@ html {
 
 main {
   margin: 0;
+  padding: 1rem;
 }
 
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 ol {
   display: grid;
@@ -25,6 +28,10 @@ ol {
   padding: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 li {
   list-style-type: none;
   border: 2px solid #623b0c;
@@ -32,4 +39,6 @@ li {
   background-color: #ede3db;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
 }
